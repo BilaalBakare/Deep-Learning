@@ -1,9 +1,9 @@
 import gradio
 
 def randomfunc(name):
-    return f"Hello {name}, Greetings from Bilaal"
+    return f"Hello {name}, Greetings from the Emodel team! We hope you have a great day!"
 
-demo = gradio.interface(
+demo = gradio.Interface(
     fn=randomfunc,
     inputs=gradio.Textbox(label='Your name'),
     outputs=gradio.Textbox(label="Greeting"),
